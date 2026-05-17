@@ -23,7 +23,6 @@ sections:
     content:
       title: Skills
       username: me
-  
   - block: resume-languages
     content:
       title: Languages
