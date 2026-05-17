@@ -99,9 +99,6 @@ skills:
       - label: AWS
       - label: Pandas | NumPy | Scikit-learn
       
-  - name:                     
-    items:
-      - label: Academic Writing
   #      - level: 5
   #     - label: Conference Presentations
   #       level: 4
@@ -110,7 +107,7 @@ skills:
 
 languages:
   - name: English
-    level: 
+    level: 5
   - name: German
     level: 2
     #label: Fluent
