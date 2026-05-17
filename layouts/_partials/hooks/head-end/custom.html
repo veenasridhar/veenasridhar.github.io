@@ -1,0 +1,113 @@
+<style>
+  .md\:col-span-8 {
+    margin-top: -100px !important;
+  }
+  .avatar {
+    border:none !important;
+    margin-top: -100px !important;
+   }
+   
+   div.mb-16 > .grid {
+    gap: calc(var(--spacing) * 12);
+   }
+
+   div > .group{
+    width: 285px;
+   }
+
+   div > .space-y-3{
+    margin-top: -100px;
+   }
+   
+   div > .space-y-8 > .group  {
+    width: 850px !important;
+   }
+
+   div.mb-16 > .grid {
+    display: none !important;
+   }
+
+   div.mb-16 > .flex {
+    display: none !important;
+   }
+   
+.resume-biography {
+    padding-bottom: 40px !important;
+  }
+
+  
+#section-resume-skills > div > div.text-3xl{
+  justify-content: center !important;
+  align-items: center !important;
+  visibility: hidden !important;
+}
+
+#section-resume-skills > div > div.text-3xl::after{
+  content: "Technical Skills" !important;
+  justify-content: center !important;
+  align-items: center !important;
+  visibility: visible !important;
+}
+.w-full > div.mb-5 {
+    display: none !important;     /* Hides the "Skills" header --> */
+  }
+
+ #section-resume-skills > div.grid > div.w-full {
+ width: 1000px !important;
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 14px;
+  margin-top: 10px;
+  visibility: visible !important;
+}
+
+/* Skill “card” style */
+.skills-content .skills-name {
+  display: block;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(148, 163, 184, 0.08);
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.skills-content .skills-name:hover {
+  transform: translateY(-2px);
+  background: rgba(59, 130, 246, 0.08);
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+
+
+
+#news > .flex > .container{
+  display:grid !important;
+  grid-template-columns: repeat(2, minmax(0, 3fr));
+  gap: 30px;
+}
+
+
+#nav-menu{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.max-w-prose > section.flex, .max-w-prose > div.flex {
+  display: none !important;
+}  
+  
+  /* div.flex > span.text-3xl{
+    visibility: hidden !important;
+  } */
+
+   /* div.flex > span.text-3xl::after{
+    content: "A2" !important;
+    visibility: visible !important;
+  } */
+
+
+</style>
+<html>
+</html>
