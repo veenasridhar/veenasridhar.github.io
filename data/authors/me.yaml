@@ -89,7 +89,7 @@ interests:
   - Software Engineering
 
 skills:
-  - name: Technical Skills
+  - name: Technical Skills               
     items:
       - label: Python
       - label: PyTorch
@@ -99,9 +99,9 @@ skills:
       - label: AWS
       - label: Pandas | NumPy | Scikit-learn
       
-  - name: Research & Communication
+  - name:                     
     items:
-  #     - label: Academic Writing
+      - label: Academic Writing
   #      - level: 5
   #     - label: Conference Presentations
   #       level: 4
@@ -112,7 +112,7 @@ languages:
   - name: English
     level: 
   - name: German
-    level: 4
+    level: 2
     #label: Fluent
 
 # awards:

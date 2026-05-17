@@ -49,6 +49,7 @@ sections:
     content:
       title: Skills
       username: me
+    
   # - block: resume-awards
   #   content:
   #     title: Awards
