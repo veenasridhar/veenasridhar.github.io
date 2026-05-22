@@ -64,7 +64,7 @@
 
 
 /* Skill “card” style */
-.skills-content .skills-name {
+.skills-content > .skills-name {
   display: block !important;
   padding: 10px 12px !important;
   border-radius: 10px !important;
@@ -74,13 +74,13 @@
   transition: all 0.2s ease !important;
 }
 
-.skills-content .skills-name:hover {
+.skills-content > .skills-name:hover {
   transform: translateY(-2px) !important;
   background: rgba(59, 130, 246, 0.08) !important;
   border-color: rgba(59, 130, 246, 0.3) !important;
 }
 
-#news > .flex > .container{
+#news > .flex > .container{ 
   display:grid !important;
   grid-template-columns: repeat(2, minmax(0, 3fr));
   gap: 30px;
